@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <style>
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .todo-container {
+            background-color: #FAE4BE;
+            width: 800px;
+            height: 500px;
+            text-align: center;
+            margin: 50px auto;
+        }
+        .todo-content {
+            border: 2px groove #14298E;
+            background-color: #000000;
+            width: 600px;
+            padding: 20px;
+        }
+        h1 {
+            font-family: sans-serif;
+            font-size: 40px;
+            color: white;
+        }
+        button {
+            background-color: #2D5FE9;
+            border-radius: 10px;
+            border: 1px solid black;
+            padding: 4px 7px;
+            margin: 5px;
+        }
+        ul {
+            color: white;
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            border: 1px solid white;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="todo-container">
+            <div class="todo-content">
+                <h1>Todo App</h1>
+                <input placeholder="Enter Items..." id="todoInput" type="text">
+                <button onclick="addTodo()">Add</button>
+                <button onclick="deleteAllItems()">Delete All</button>
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
