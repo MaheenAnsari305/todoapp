@@ -1,13 +1,15 @@
-        var firebaseConfig = {
-            apiKey: "AIzaSyABF_ZzlfRPkDZXLm_AQtKXl_gEbFX_adw",
-            authDomain: "todoproject-ab1bd.firebaseapp.com",
-            databaseURL: "https://todoproject-ab1bd-default-rtdb.firebaseio.com",
-            projectId: "todoproject-ab1bd",
-            storageBucket: "todoproject-ab1bd.appspot.com",
-            messagingSenderId: "918803052917",
-            appId: "1:918803052917:web:d69a28755264dcb203fb3c"
-        };
-        var app = firebase.initializeApp(firebaseConfig);
+var firebaseConfig = {
+    apiKey: "AIzaSyAdO2jsLCPUFgtcQmrLu0CY1e43dhb5vv8",
+    authDomain: "todo-450ec.firebaseapp.com",
+    databaseURL: "https://todo-450ec-default-rtdb.firebaseio.com",
+    projectId: "todo-450ec",
+    storageBucket: "todo-450ec.firebasestorage.app",
+    messagingSenderId: "640621759293",
+    appId: "1:640621759293:web:a4390e9be2d1fb50841354"
+  };
+  
+  // Initialize Firebase
+  var app = firebase.initializeApp(firebaseConfig);
         var database = firebase.database();
         const ulElement = document.getElementById("list");
 

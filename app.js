@@ -1,10 +1,10 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyABF_ZzlfRPkDZXLm_AQtKXl_gEbFX_adw",
-    authDomain: "todoproject-ab1bd.firebaseapp.com",
-    projectId: "todoproject-ab1bd",
-    storageBucket: "todoproject-ab1bd.firebasestorage.app",
-    messagingSenderId: "918803052917",
-    appId: "1:918803052917:web:d69a28755264dcb203fb3c"
+    apiKey: "AIzaSyAdO2jsLCPUFgtcQmrLu0CY1e43dhb5vv8",
+    authDomain: "todo-450ec.firebaseapp.com",
+    projectId: "todo-450ec",
+    storageBucket: "todo-450ec.firebasestorage.app",
+    messagingSenderId: "640621759293",
+    appId: "1:640621759293:web:a4390e9be2d1fb50841354"
   };
   
   // Initialize Firebase
